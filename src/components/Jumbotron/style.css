@@ -1,0 +1,13 @@
+.jumbotron {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  color: darkslategrey;
+  padding: .8rem;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 10px;
+}
