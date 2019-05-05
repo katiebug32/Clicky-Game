@@ -1,10 +1,10 @@
 .card {
   background: #fff;
   border-radius: 2px;
-  height: 150px;
+  height: 10rem;
   margin: 1rem;
   position: relative;
-  width: 150px;
+  width: 10rem;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
 
@@ -29,3 +29,45 @@
   margin-top: 18px;
 }
 
+@media only screen and (max-width: 959px) {
+  .card {
+    background: #fff;
+    border-radius: 2px;
+    height: 6rem;
+    margin: 1rem;
+    position: relative;
+    width: 6rem;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    text-align: left;
+  
+  }
+  
+  .card-img-top {
+    height: 6rem;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .card {
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+  
+  .card-img-top {
+    height: 4.5rem;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 346px) {
+  .card {
+    height: 4rem;
+    width: 4rem;
+  }
+  
+  .card-img-top {
+    height: 4rem;
+    object-fit: cover;
+  }
+}

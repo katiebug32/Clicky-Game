@@ -1,6 +1,5 @@
 .kittyContainer {
     display: flex;
-    display: flex;
     min-height: 80%;
     flex-wrap: wrap;
     justify-content: center;
@@ -8,4 +7,42 @@
     padding-bottom: 50px;
     width: 90%;
     margin: 0 auto;
+    width: 60%;
+}
+
+@media only screen and (max-width: 1280px) {
+    .kittyContainer {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    .kittyContainer {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 853px) {
+    .kittyContainer {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 548px) {
+    .kittyContainer {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 479px) {
+    .kittyContainer {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 389px) {
+    .kittyContainer {
+        width: 90%;
+    }
 }

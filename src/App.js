@@ -68,7 +68,7 @@ class App extends Component {
           clickedKittens: newClickedKittens,
           currentScore: newScore,
           highScore: newHighScore,
-          comment: "Good Job, keep guessing!"
+          comment: "Good job, keep guessing!"
         })
         this.shuffleImgs(); //only shuffle the images when the game is still in play
       }
